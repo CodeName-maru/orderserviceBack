@@ -1,4 +1,6 @@
 services:
+  backend:
+    image: maru423/order-service-backend:latest # docker hub에 push한 이미지 이름
   app:
     build: .
     ports:
